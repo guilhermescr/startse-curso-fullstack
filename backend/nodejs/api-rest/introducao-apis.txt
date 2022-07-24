@@ -1,0 +1,28 @@
+Métodos de Requisições - Verbos HTTP
+
+Classificação:
+| Método - Escopo - Semântica |
+
+GET - coleção - Recuperar todos os recursos em uma coleção.
+
+GET - recurso - Recuperar um recurso em uma coleção.
+
+POST - coleção - Criar um novo recurso.
+
+PUT - recurso - Atualizar um recurso.
+
+PATCH - recurso - Atualizar um recurso.
+
+DELETE - recurso - Deletar um recurso.
+
+OPTIONS - recurso ou coleção - Retorna todos os métodos HTTP disponíveis.
+
+Parâmetros das Requisições:
+
+- Header Params: enviados no cabeçalho da requisição.
+
+- Query Params: enviados pela URL com chave e valor.
+
+- Route Params: enviados pela rota.
+
+- Body Params: enviados no corpo da requisição.
